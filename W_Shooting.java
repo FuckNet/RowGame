@@ -22,13 +22,12 @@ public class W_Shooting {
 
 	public static void main(String[] args) 
 	{
-		System.out.println("ストライクウィッチ-ズ Start!");
+		System.out.println("무지를 구해줘! Start!");
 		W_Shooting_frame wsf=new W_Shooting_frame();
 	}
 
 }
-class W_Shooting_frame extends Frame implements KeyListener, Runnable
-{
+class W_Shooting_frame extends Frame implements KeyListener, Runnable {
 	//기본 윈도우를 형성하는 프레임을 만든다
 	//KeyListener : 키보드 입력 이벤트를 받는다
 	//Runnable : 스레드를 가능하게 한다
